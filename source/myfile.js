@@ -38,6 +38,20 @@ function subtractNumbers (num1, num2) {
     return sum;
 }
 
+/**
+ * Function returns multiplication of numbers
+ * @return result Number multiplication of the given numbers
+ */
+function multiplyNumbers () {
+    var numbers = arguments,
+        result;
+    for (var i in numbers) {
+        result *= numbers[i];
+    }
+	
+    return result;
+}
+
 /** @todo A sample todo block which needs to be removed */
 var a = $('div'),
 b = navigator.userAgent;
