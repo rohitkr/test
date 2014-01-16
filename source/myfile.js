@@ -52,6 +52,20 @@ function multiplyNumbers () {
     return result;
 }
 
+/**
+ * Divides two numbers and returns only the remainder
+ * @params num1 Number
+ * @params num2 Number
+ * @return result Number
+ */
+/** @todo A sample todo block which needs to be removed */
+function mod (num1, num2) {
+    var numbers = arguments,
+        result = num1 % num2;
+
+    return sum;
+}
+
 /** @todo A sample todo block which needs to be removed */
 var a = $('div'),
 b = navigator.userAgent;
