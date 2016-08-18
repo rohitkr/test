@@ -5,6 +5,9 @@ console.log(" | |__| (_) | | | | | | |_) | | | | | | | (_| |");
 console.log("  \\____\\___/|_| |_| |_| .__/|_|_|_|_| |_|\\__, |");
 console.log("                      |_|                |___/ ");
 
+console.log("                       ");
+console.log("Test with wercker CI");
+
 
 // ccjs = require('google-closure-compiler');
 
