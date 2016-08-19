@@ -37,3 +37,4 @@ build:
           echo "Current path is: $(pwd)"
           echo "Current path is: $(pwd)"
           echo "Who am I: $(whoami)"
+          echo -e "\n\n\nHello: \n\n\n$(java -jar node_modules/google-closure-compiler/compiler.jar --help)"
