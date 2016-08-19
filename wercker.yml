@@ -3,7 +3,7 @@
 # If you want Nodesource's container you would reference nodesource/node
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: kobim/nodejs-java7
+box: java
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
@@ -37,4 +37,5 @@ build:
           echo "Current path is: $(pwd)"
           echo "Current path is: $(pwd)"
           echo "Who am I: $(whoami)"
+          echo -e "\n\n\nHello: \n\n\n$(java -version)"
           echo -e "\n\n\nHello: \n\n\n$(java -jar node_modules/google-closure-compiler/compiler.jar --help)"
