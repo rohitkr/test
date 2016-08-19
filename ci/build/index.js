@@ -15,6 +15,7 @@ console.log("Test with wercker CI ");
 var closureCompiler = require('google-closure-compiler').gulp();
 var gulp = require('gulp');
 
+gulp.src('source/*.js')
 
 
 // gulp.src('source/*.js')
