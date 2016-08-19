@@ -16,6 +16,7 @@ var closureCompiler = require('google-closure-compiler').gulp();
 var gulp = require('gulp');
 
 gulp.src('source/*.js')
+.pipe(gulp.dest('dist/js'));
 
 
 // gulp.src('source/*.js')
