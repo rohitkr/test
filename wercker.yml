@@ -34,3 +34,6 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+          echo "Current path is: $(pwd)"
+          echo "Current path is: $(pwd)"
+          echo "Who am I: $(whoami)"
