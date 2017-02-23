@@ -21,5 +21,10 @@
 		}
 	};
 
-	return FusionCharts;
+	return {
+		getData: function () {},
+		setData: function () {},
+		getChart: function () {},
+		setChart: function () {}
+	};
 }));
