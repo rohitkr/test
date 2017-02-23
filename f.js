@@ -1,12 +1,8 @@
+
 (function (env, factory) {
     if (typeof module === 'object' && module.exports) {
         module.exports = env.document ?
-            factory(env) : function(win) {
-                if (!win.document) {
-                    throw new Error("Window with document not present");
-                }
-                return factory(win, true);
-            };
+            factory(env) : factory;
     } else {
         env.FusionCharts = factory(env, true);
     }
