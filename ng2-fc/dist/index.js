@@ -23,7 +23,8 @@ var FusionChartsModule = FusionChartsModule_1 = (function () {
         }
         debugger;
         fusionchartsModules.forEach(function (FusionChartsModules) {
-            FusionChartsModules(FusionChartsConstructor);
+            var FCMod = FusionChartsModules.define || FusionChartsModules;
+            FCMod(FusionChartsConstructor);
         });
         return {
             ngModule: FusionChartsModule_1,

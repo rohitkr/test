@@ -28,8 +28,9 @@ export {
 export class FusionChartsModule {
     static forRoot(FusionChartsConstructor: any, ...fusionchartsModules: Array<Function>): ModuleWithProviders {
       debugger;
-        fusionchartsModules.forEach((FusionChartsModules) => {
-            FusionChartsModules(FusionChartsConstructor)
+        fusionchartsModules.forEach((FusionChartsModules: any) => {
+          let FCMod = FusionChartsModules.define || FusionChartsModules;
+          FCMod(FusionChartsConstructor)
         });
 
         return {
