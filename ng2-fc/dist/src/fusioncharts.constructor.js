@@ -1,6 +1,7 @@
 "use strict";
 function FusionChartsConstructor(fusionchartsService, chartConfig) {
-    var FusionCharts = fusionchartsService.getFusionChartsStatic();
+    var FC = fusionchartsService.getFusionChartsStatic();
+    var FusionCharts = FC.default || FC;
     return new FusionCharts(chartConfig);
 }
 exports.FusionChartsConstructor = FusionChartsConstructor;
