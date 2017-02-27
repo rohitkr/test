@@ -21,6 +21,7 @@ var FusionChartsModule = FusionChartsModule_1 = (function () {
         for (var _i = 1; _i < arguments.length; _i++) {
             fusionchartsModules[_i - 1] = arguments[_i];
         }
+        debugger;
         fusionchartsModules.forEach(function (FusionChartsModules) {
             FusionChartsModules(FusionChartsConstructor);
         });

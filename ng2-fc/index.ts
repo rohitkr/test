@@ -27,6 +27,7 @@ export {
 })
 export class FusionChartsModule {
     static forRoot(FusionChartsConstructor: any, ...fusionchartsModules: Array<Function>): ModuleWithProviders {
+      debugger;
         fusionchartsModules.forEach((FusionChartsModules) => {
             FusionChartsModules(FusionChartsConstructor)
         });
