@@ -29,7 +29,7 @@ export class FusionChartsModule {
     static forRoot(FusionChartsConstructor: any, ...fusionchartsModules: Array<Function>): ModuleWithProviders {
       debugger;
         fusionchartsModules.forEach((FusionChartsModules: any) => {
-          let FCMod = FusionChartsModules.define || FusionChartsModules;
+          let FCMod = FusionChartsModules.default || FusionChartsModules;
           FCMod(FusionChartsConstructor)
         });
 

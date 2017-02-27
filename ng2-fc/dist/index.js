@@ -23,7 +23,7 @@ var FusionChartsModule = FusionChartsModule_1 = (function () {
         }
         debugger;
         fusionchartsModules.forEach(function (FusionChartsModules) {
-            var FCMod = FusionChartsModules.define || FusionChartsModules;
+            var FCMod = FusionChartsModules.default || FusionChartsModules;
             FCMod(FusionChartsConstructor);
         });
         return {
