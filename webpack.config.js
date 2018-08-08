@@ -1,7 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 var CopyWebpack = require('copy-webpack-plugin');
-var repositoryName = process.env.NODE_ENV !== "development"?'/vue-fusioncharts':''
+var repositoryName = process.env.NODE_ENV !== "development"?'/test-new':''
 var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
   entry: './src/main.js',
