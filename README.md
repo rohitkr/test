@@ -154,6 +154,7 @@ Want to render data-driven maps  (FusionMaps) - check out [this link](https://ww
 |jQuery|[Github Repo](https://github.com/fusioncharts/fusioncharts-jquery-plugin)|[Documentation](https://www.fusioncharts.com/dev/getting-started/jquery/your-first-chart-using-jquery)|
 |React|[Github Repo](https://github.com/fusioncharts/react-fusioncharts-component)|[Documentation](https://www.fusioncharts.com/dev/getting-started/react/your-first-chart-using-react)|
 |Vue.js|[Github Repo](https://github.com/fusioncharts/vue-fusioncharts)|[Documentation](https://www.fusioncharts.com/dev/getting-started/vue/your-first-chart-using-vuejs)|
+|Ember|[Github Repo](https://github.com/fusioncharts/ember-fusioncharts)|[Documentation](https://www.fusioncharts.com/dev/getting-started/ember/your-first-chart-using-ember)|
 
 ### Back-end Integrations
 ||||
