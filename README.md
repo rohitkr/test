@@ -19,7 +19,7 @@ This package also contains FusionWidgets  (gauges, real-time charts), PowerChart
 ### Table of Contents
 * [Installing FusionCharts](#installing-fusioncharts)
 * [Getting Started](#getting-started)
-* [Using FusionCharts as an ES Modules](#using-fusioncharts-as-an-es-module)
+* [Using FusionCharts as an ES Modules](#using-fusioncharts-as-an-es-modules)
 * [Related Packages](#related-packages)
 	* [Front-end Integrations](#front-end-integrations)
 	* [Back-end Integrations](#back-end-integrations)
